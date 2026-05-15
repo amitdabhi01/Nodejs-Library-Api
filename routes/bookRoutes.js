@@ -8,6 +8,7 @@ import upload from "../middleware/upload.js";
 const router = express.Router();
 
 router.get("/getBook", auth, bookController.getBook);
+
 router.post(
   "/createBook",
   upload.single("bookPic"),
@@ -25,7 +26,7 @@ router.delete(
   "/delete-book/:id",
   auth,
   checkRole("admin", "super_admin"),
-  bookController.getBook,
+  bookController.deleteBook,
 );
 
 export default router;

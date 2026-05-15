@@ -14,8 +14,9 @@ const addUser = async (req, res, next) => {
 
     const user = new User(newUser);
 
-    await user.save();
     const token = await user.generateAuthToken();
+
+    await user.save();
     res
       .status(201)
       .json({ success: true, message: "added successfully!", user, token });
@@ -75,6 +76,7 @@ const logOut = async (req, res, next) => {
 const logOutAll = async (req, res, next) => {
   try {
     req.user.tokens = [];
+    
     await req.user.save();
     res
       .status(200)

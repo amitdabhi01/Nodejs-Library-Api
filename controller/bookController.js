@@ -1,5 +1,6 @@
 import HttpError from "../middleware/HttpError.js";
 import Book from "../model/Book.js";
+import cloudinary from "../config/cloudinary.js";
 
 const createBook = async (req, res, next) => {
   try {

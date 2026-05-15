@@ -4,6 +4,11 @@ import helmet from "helmet";
 import HttpError from "./middleware/HttpError.js";
 import connectDB from "./config/db.js";
 
+import userRoutes from "./routes/userRoutes.js";
+import bookRoutes from "./routes/bookRoutes.js";
+import borrowRoutes from "./routes/borrowRoutes.js";
+import adminRoutes from "./routes/adminRoutes.js";
+
 import dotenv from "dotenv";
 dotenv.config({ path: "./.env" });
 
@@ -11,6 +16,11 @@ const app = express();
 
 app.use(express.json());
 app.use(helmet());
+
+app.use("/user", userRoutes);
+app.use("/book", bookRoutes);
+app.use("/borrow", borrowRoutes);
+app.use("/admin", adminRoutes);
 
 app.get("/", (req, res) => {
   res.status(200).json("Hello from server 🚀");
