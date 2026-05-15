@@ -202,25 +202,35 @@ You can test APIs using:
 
 # 📸 Add Postman Screenshots
 
-Create a folder named `screenshots` inside your project.
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 153710" src="https://github.com/user-attachments/assets/ddb80ae8-6935-4773-947d-187ad89c8639" />
 
-```bash
-screenshots/
-```
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 153718" src="https://github.com/user-attachments/assets/c666f399-eb7d-4c67-b863-bd4a50934e16" />
 
-Then add your API screenshots.
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 153726" src="https://github.com/user-attachments/assets/3931a564-6c89-401b-82ad-71f77631de01" />
 
-Example:
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 153732" src="https://github.com/user-attachments/assets/7d7b2575-808e-4d11-930a-1d6c86ae267e" />
 
-```md
-## 📷 API Testing
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 153737" src="https://github.com/user-attachments/assets/1267f373-345e-454c-b2dd-3031ea2318ee" />
 
-![Register API](./screenshots/register-api.png)
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 153747" src="https://github.com/user-attachments/assets/9749c0c0-c9df-4449-89c7-998102975dc5" />
 
-![Login API](./screenshots/login-api.png)
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 153753" src="https://github.com/user-attachments/assets/d8afb036-edb9-4746-9275-b173bf31f5c2" />
 
-![Books API](./screenshots/books-api.png)
-```
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 153803" src="https://github.com/user-attachments/assets/84fd97b8-e762-424d-bc56-54816785d2db" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 153810" src="https://github.com/user-attachments/assets/ace553d9-db64-4817-878a-36034a6c0f1d" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 153818" src="https://github.com/user-attachments/assets/7032e8f3-0375-4fe9-a4c5-ac168c2c8b8d" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-15 113205" src="https://github.com/user-attachments/assets/1e07620b-7814-454a-bf91-4c6a961d31ae" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-15 113205" src="https://github.com/user-attachments/assets/a106eadb-bcb6-459a-865d-dfc7407e95d6" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-15 113309" src="https://github.com/user-attachments/assets/b7508e13-ffc1-49f2-bd0b-79e42c64c166" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-15 113338" src="https://github.com/user-attachments/assets/2b7f8d4a-4ca0-4367-8814-ac31f26412bf" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-15 113351" src="https://github.com/user-attachments/assets/4a8ed5ea-6230-46c0-bd69-652ae9916304" />
 
 ---
 
